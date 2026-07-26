@@ -1,7 +1,17 @@
 aid: draftea
 name: Draftea
-description: Draftea is a company surfaced as a portfolio company of bullpen-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Draftea is a Mexico-based daily fantasy sports and real-money sports gaming
+  platform, billed as the first daily fantasy sports (DFS) product for the
+  Spanish-speaking world. Fans draft lineups of real athletes across soccer,
+  American football (via an NFL partnership), basketball, baseball, and Formula 1,
+  enter paid contests, and compete against other users for cash prizes rather than
+  against a bookmaker. The company operates in Mexico under regulatory approval
+  (DGAJS/SCEVF/P-06/2005-TER), distributes through native iOS and Android apps,
+  and is backed by Sequoia, Kaszek, Bullpen Capital, Stepstone Group, and Courtside
+  Ventures, along with athlete investors. Draftea is a consumer product company and
+  does not currently publish a public developer API program; this profile captures
+  its public web, support, legal, and open-source engineering surface.
 url: https://raw.githubusercontent.com/api-evangelist/draftea/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,31 @@ x-backed-by:
 - bullpen-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/93108123?v=4
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Fantasy Sports
+- Daily Fantasy Sports
+- Sports Betting
+- Gaming
+- Sports
+- Mexico
+- Latin America
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +52,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.draftea.com
+  url: https://www.draftea.mx
+- type: Blog
+  url: https://www.draftea.mx/blog
+- type: Support
+  url: https://help.draftea.com/support/home
+- type: HelpCenter
+  url: https://help.draftea.com/support/home
+- type: TermsOfService
+  url: https://www.draftea.mx/page/terminos-y-condiciones
+- type: PrivacyPolicy
+  url: https://www.draftea.mx/page/aviso-de-privacidad
+- type: GitHubOrganization
+  url: https://github.com/Drafteame
+- type: DomainSecurity
+  url: security/draftea-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
